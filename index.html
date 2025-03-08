@@ -9,7 +9,7 @@
              font-family: 'Times New Roman', Times, serif;
              margin: 0;
              padding: 20px;
-             background-color: azure;
+             background-color: rgb(255, 249, 240);
         }
        header{
         background-color: aqua;
@@ -19,10 +19,13 @@
         font-weight: bold;
         position:relative;
         top:0;
-         left:0;
+        left:-300px;
+        right:-300px;
         width: 100%;
         font-size: 24px;
-           z-index:1000;
+        z-index:1000;
+        scroll-padding-block-end: 300px;
+        scroll-padding-block-start: 230px;
        }
        .resume-container {
              background-color: beige;
@@ -37,7 +40,7 @@
              background-color: lightcoral;
              padding: 30px;
              text-align: left;
-             width:250px;
+             width:330px;
              font-size: medium;
        }
        main{
@@ -89,7 +92,7 @@
          .sidebar ul{
             padding-left: 0;
          }
-         .header{
+         header{
             min-width:fit-content;
          }
       }
