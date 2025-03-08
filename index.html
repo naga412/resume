@@ -19,32 +19,30 @@
         font-weight: bold;
         position:relative;
         top:0;
-        left:-300px;
-        right:-300px;
+        right:45px;
         width: 100%;
         font-size: 24px;
-        z-index:1000;
-        scroll-padding-block-end: 300px;
-        scroll-padding-block-start: 230px;
+        z-index:1000%;
        }
        .resume-container {
              background-color: beige;
              padding: 0;
              display: flex;
-             max-width:1000px;
              display: flex;
              margin: 20px auto;
              overflow: hidden;
+             width:100%;
        }
        .sidebar {
              background-color: lightcoral;
              padding: 30px;
              text-align: left;
-             width:330px;
+             width:30%;
              font-size: medium;
        }
        main{
         padding: 2rem;
+        width:100%;
         flex:1;
        }
        .sidebar h2{
@@ -84,6 +82,7 @@
       @media screen and (max-width: 768px){
          .resume-container {
              flex-direction: column;
+             width: 100%;
          }
          .sidebar{
             width:100%;
@@ -91,11 +90,10 @@
          }
          .sidebar ul{
             padding-left: 0;
-             width:100%
          }
          header{
             min-width:fit-content;
-             width:100%
+            width:100%;
          }
       }
     </style>
